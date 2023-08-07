@@ -1,0 +1,64 @@
+.navbar  .container-fluid{
+    background-color: rgb(73, 73, 73) !important;
+    margin: 0px !important;
+}
+.navbar{
+    margin: 0px !important;
+    padding: 0px !important;
+    padding-bottom: 0px !important;
+    position: sticky !important;
+    top: 0px;
+    z-index: 1;
+}
+.nav-item{
+    margin-left: 90px;
+    font-size: large;
+}
+
+.cardss{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+.card{
+    margin-top: 20px;
+}
+.nav-link{
+    color: aliceblue !important; 
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color: red !important;
+}
+.card-body{
+    background-color: rgba(128, 128, 128, 0.368);
+ 
+}
+.btn:hover {
+    color: red !important;
+    background-color: aliceblue !important;
+}
+.accordion-button{
+    padding: 10px !important;
+}
+.accordion{
+    margin-top: 10px !important;
+}
+.modal-body button , .carousel-item button{
+    color: red;
+    border-color: red;
+    border-radius: 20px;
+    background-color: white;
+}
+.modal-body button:hover, .carousel-item button:hover{
+    color: white;
+    border-color: red;
+    border-radius: 20px;
+    background-color: rgb(255, 0, 0);
+}
+.rec{
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(255, 0, 0, 0.566);
+}
+
